@@ -1,6 +1,6 @@
 # AWS AI SRE Copilot
 
-[![CI](https://github.com/rkondisetty/aws-ai-sre-copilot/actions/workflows/ci.yml/badge.svg)](https://github.com/rkondisetty/aws-ai-sre-copilot/actions/workflows/ci.yml)
+[![CI](https://github.com/keerthikondisetty/aws-ai-sre-copilot/actions/workflows/ci.yml/badge.svg)](https://github.com/keerthikondisetty/aws-ai-sre-copilot/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A read-only incident intelligence service that turns Amazon CloudWatch alarms into

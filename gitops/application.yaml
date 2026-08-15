@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/rkondisetty/aws-ai-sre-copilot.git
+    repoURL: https://github.com/keerthikondisetty/aws-ai-sre-copilot.git
     targetRevision: main
     path: deploy/overlays/dev
   destination:

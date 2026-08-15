@@ -31,7 +31,7 @@ variable "bedrock_model_id" {
 variable "github_repository" {
   description = "GitHub owner/repository allowed to assume the CI role."
   type        = string
-  default     = "rkondisetty/aws-ai-sre-copilot"
+  default     = "keerthikondisetty/aws-ai-sre-copilot"
 }
 
 variable "create_github_oidc_provider" {
