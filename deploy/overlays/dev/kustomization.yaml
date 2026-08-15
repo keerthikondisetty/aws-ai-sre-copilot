@@ -1,0 +1,17 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - ../../base
+images:
+  - name: ai-sre-copilot
+    newName: REPLACE_WITH_ECR_REPOSITORY
+    newTag: dev
+patches:
+  - target:
+      kind: Deployment
+      name: ai-sre-copilot
+    patch: |-
+      - op: replace
+        path: /spec/replicas
+        value: 1
+

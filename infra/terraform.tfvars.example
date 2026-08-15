@@ -1,0 +1,4 @@
+aws_region                    = "us-east-1"
+environment                   = "dev"
+github_repository             = "rkondisetty/aws-ai-sre-copilot"
+create_github_oidc_provider   = true

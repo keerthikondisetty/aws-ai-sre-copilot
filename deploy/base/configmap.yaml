@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ai-sre-copilot
+  namespace: ai-sre-copilot
+data:
+  COPILOT_AWS_REGION: us-east-1
+  COPILOT_ANALYZER_MODE: bedrock
+  COPILOT_BEDROCK_MODEL_ID: us.anthropic.claude-3-5-haiku-20241022-v1:0
+  COPILOT_QUEUE_URL: REPLACE_WITH_TERRAFORM_OUTPUT
+  COPILOT_NOTIFICATION_TOPIC_ARN: REPLACE_WITH_TERRAFORM_OUTPUT
+
