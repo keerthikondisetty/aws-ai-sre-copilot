@@ -35,7 +35,7 @@ jobs:
         working-directory: infra
       - run: terraform validate
         working-directory: infra
-      - uses: azure/setup-kubectl@v4
+      - uses: azure/setup-kubectl@v5
       - run: kubectl kustomize deploy/overlays/dev >/dev/null
 
   container:
